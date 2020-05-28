@@ -5,7 +5,7 @@ function Dog(props) {
   const handleClick = () => alert(`You pet ${props.dog.name}`)
   return <div>
     <p>{props.dog.name}</p>
-    <button onClick={handleClick}>Pet Dog</button>
+    <button onClick={handleClick}>Pet this Dog</button>
     </div>;
 }
 
